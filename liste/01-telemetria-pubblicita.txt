@@ -1,0 +1,20 @@
+# 01 - Telemetria e pubblicita'
+# Rischio: basso. Servizi che raccolgono dati d'uso, mostrano annunci o installano app sponsorizzate.
+# Uso: ./debloat.sh liste/01-telemetria-pubblicita.txt
+
+# === Xiaomi ===
+com.miui.msa.global
+com.miui.analytics
+com.miui.daemon
+com.miui.misightservice
+com.miui.bugreport
+com.miui.miservice
+com.miui.thirdappassistant
+android.autoinstalls.config.Xiaomi.model
+# === Servizi di sistema di Facebook e Amazon ===
+com.facebook.services
+com.facebook.system
+com.facebook.appmanager
+com.amazon.appmanager
+# === Qualcomm ===
+com.qualcomm.qti.devicestatisticsservice

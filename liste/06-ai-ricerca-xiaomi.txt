@@ -1,0 +1,11 @@
+# 06 - Ricerca e funzioni AI Xiaomi
+# Rischio: basso. Perdi la ricerca globale Xiaomi e le funzioni AI di HyperOS.
+# Uso: ./debloat.sh liste/06-ai-ricerca-xiaomi.txt
+
+# === Ricerca Xiaomi ===
+com.mi.appfinder
+# === Funzioni AI Xiaomi ===
+com.xiaomi.aicr
+com.xiaomi.aiservice
+com.xiaomi.cameramind
+com.miuix.editor

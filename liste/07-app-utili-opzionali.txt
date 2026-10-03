@@ -1,0 +1,24 @@
+# 07 - App utili ma sostituibili
+# Rischio: medio. Sono app che funzionano e che molti usano: toglile SOLO se hai gia' installato
+# un'alternativa. Commenta con # quelle che vuoi tenere.
+# Su HyperOS alcune non si possono rimuovere (Failure [-1000]): lo script le disattiva.
+# Uso: ./debloat.sh liste/07-app-utili-opzionali.txt
+
+# === App Xiaomi di uso comune ===
+com.miui.notes
+com.xiaomi.calendar
+com.miui.weather2
+com.miui.compass
+com.android.soundrecorder
+com.miui.screenrecorder
+com.xiaomi.smarthome
+com.miui.huanji
+# === Gestore file ===
+com.mi.android.globalFileexplorer
+# === Galleria ed editor foto ===
+com.miui.gallery
+com.miui.mediaeditor
+# === Browser: senza un altro browser installato non apri piu' i link ===
+com.android.chrome
+# === Temi: perdi il selettore di sfondi, schermata di blocco e suonerie ===
+com.android.thememanager

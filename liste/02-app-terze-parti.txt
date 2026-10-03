@@ -1,0 +1,27 @@
+# 02 - App di terze parti preinstallate
+# Rischio: basso. App e giochi sponsorizzati: se ne vuoi una, la reinstalli dallo store.
+# Uso: ./debloat.sh liste/02-app-terze-parti.txt
+
+# === App ===
+cn.wps.moffice_eng
+com.alibaba.aliexpresshd
+com.amazon.mShop.android.shopping
+com.amazon.mp3
+com.einnovation.temu
+com.booking
+com.facebook.katana
+com.linkedin.android
+com.zhiliaoapp.musically
+com.netflix.mediaclient
+com.spotify.music
+com.microsoft.copilot
+com.microsoft.skydrive
+com.microsoftsdk.crossdeviceservicebroker
+com.opera.app.news
+# === Giochi ===
+com.block.juggle
+com.ordinaryjoy.woodblast
+com.mintgames.wordtrip
+com.sukhavati.gotoplaying.bubble.BubbleShooter.mint
+com.mintgames.triplecrush.tile.fun
+com.block.puzzle.game.hippo.mi

@@ -1,0 +1,30 @@
+# 04 - Servizi Xiaomi secondari
+# Rischio: medio. Perdi Xiaomi Cloud, la sincronizzazione Mi e la condivisione tra dispositivi Xiaomi.
+# Non lanciarla se usi l'account Mi per backup o "Trova dispositivo".
+# Uso: ./debloat.sh liste/04-servizi-xiaomi.txt
+
+# === Cloud e sincronizzazione ===
+com.miui.cloudservice
+com.miui.cloudbackup
+com.miui.micloudsync
+# === Connessione tra dispositivi ===
+com.xiaomi.mi_connect_service
+com.miui.mishare.connectivity
+com.milink.service
+# === Altri servizi ===
+com.xiaomi.discover
+com.tencent.soter.soterserver
+org.ifaa.aidl.manager
+com.miui.vsimcore
+com.xiaomi.simactivate.service
+com.xiaomi.xmsfkeeper
+com.miui.audiomonitor
+com.xiaomi.entitlement.o2
+com.wdstechnology.android.kryten
+# === Test di fabbrica e strumenti di sviluppo ===
+com.longcheertel.cit
+com.longcheertel.AutoTest
+com.goodix.gftest
+com.silead.factorytest
+com.android.traceur
+com.android.egg

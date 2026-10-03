@@ -1,0 +1,16 @@
+# Stato del tuo telefono, creato dagli script: non va pubblicato
+/rimossi.txt
+/rimossi.log
+/disattivati.txt
+/sospesi.txt
+/manuali.txt
+/pacchetti_*.txt
+/info_dispositivo.txt
+/watchlist.json
+/uad_lists.json
+
+# APK e chiavi di firma
+*.apk
+*.keystore
+!debug.keystore
+keystore.properties

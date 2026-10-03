@@ -1,0 +1,28 @@
+# 08 - Telefono senza Google (avanzata)
+# Rischio: ALTO. Toglie Play Store, Play Services e le app Google di base.
+#
+# PRIMA di lanciarla installa e imposta come predefiniti i sostituti di:
+#   - tastiera   (senza una tastiera non puoi piu' scrivere niente)
+#   - telefono   (senza non puoi fare ne' ricevere chiamate)
+#   - SMS e contatti
+#   - uno store alternativo, ad esempio F-Droid
+#
+# Senza Play Services smettono di funzionare notifiche push, mappe integrate, accesso con Google
+# e molte app di banche e pagamenti. Non lanciarla se non sai cosa comporta.
+# Uso: ./debloat.sh liste/08-degoogle.txt
+
+# === Store e servizi Google ===
+com.android.vending
+com.google.android.gms
+com.google.android.gsf
+com.google.android.partnersetup
+com.google.mainline.telemetry
+# === App Google di base: installa PRIMA i sostituti ===
+com.google.android.dialer
+com.google.android.apps.messaging
+com.google.android.contacts
+com.google.android.inputmethod.latin
+com.google.android.tts
+# === Altro ===
+com.google.android.printservice.recommendation
+com.google.android.accessibility.switchaccess

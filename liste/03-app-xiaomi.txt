@@ -1,0 +1,22 @@
+# 03 - App Xiaomi superflue
+# Rischio: basso. Browser, store, lettori e vetrine Xiaomi. Leggi l'elenco e commenta con # quelle che usi.
+# Uso: ./debloat.sh liste/03-app-xiaomi.txt
+
+com.mi.globalbrowser
+com.miui.player
+com.miui.videoplayer
+com.xiaomi.mipicks
+com.miui.android.fashiongallery
+com.mi.globalminusscreen
+com.xiaomi.glgm
+com.mi.global.bbs
+com.mi.global.shop
+com.xiaomi.midrop
+com.miui.cleaner
+com.xiaomi.payment
+com.miui.yellowpage
+com.miui.phrase
+com.xiaomi.barrage
+com.miui.accessibility
+com.xiaomi.aiasst.vision
+cn.wps.xiaomi.abroad.lite
